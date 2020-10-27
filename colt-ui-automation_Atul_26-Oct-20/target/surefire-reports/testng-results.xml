@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium_TestNG_ES_Suite" duration-ms="657295" started-at="2020-10-23T16:07:26Z" finished-at="2020-10-23T16:18:23Z">
+    <groups>
+      <group name="testQuoteSEApproval">
+        <method signature="CPQQuoteApprovalTest.testQuoteSEApproval()[pri:0, instance:cpqTests.CPQQuoteApprovalTest@2669b199]" name="testQuoteSEApproval" class="cpqTests.CPQQuoteApprovalTest"/>
+      </group> <!-- testQuoteSEApproval -->
+      <group name="testEnterLegalAndTechnicalContactDetails">
+        <method signature="CPQQuoteCreationTest.testEnterLegalAndTechnicalContactDetails()[pri:0, instance:cpqTests.CPQQuoteCreationTest@6d78f375]" name="testEnterLegalAndTechnicalContactDetails" class="cpqTests.CPQQuoteCreationTest"/>
+      </group> <!-- testEnterLegalAndTechnicalContactDetails -->
+      <group name="testAddProductToQuote">
+        <method signature="CPQQuoteCreationTest.testAddProductToQuote()[pri:0, instance:cpqTests.CPQQuoteCreationTest@6d78f375]" name="testAddProductToQuote" class="cpqTests.CPQQuoteCreationTest"/>
+      </group> <!-- testAddProductToQuote -->
+      <group name="testAddProductDetailsToQuote">
+        <method signature="CPQQuoteCreationTest.testAddProductDetailsToQuote()[pri:0, instance:cpqTests.CPQQuoteCreationTest@6d78f375]" name="testAddProductDetailsToQuote" class="cpqTests.CPQQuoteCreationTest"/>
+      </group> <!-- testAddProductDetailsToQuote -->
+      <group name="testSubmissionForCommercialApproval">
+        <method signature="CPQQuoteCreationTest.testSubmissionForCommercialApproval()[pri:0, instance:cpqTests.CPQQuoteCreationTest@6d78f375]" name="testSubmissionForCommercialApproval" class="cpqTests.CPQQuoteCreationTest"/>
+      </group> <!-- testSubmissionForCommercialApproval -->
+      <group name="testSubmissionForTechnicalApproval">
+        <method signature="CPQQuoteCreationTest.testSubmissionForTechnicalApproval()[pri:0, instance:cpqTests.CPQQuoteCreationTest@6d78f375]" name="testSubmissionForTechnicalApproval" class="cpqTests.CPQQuoteCreationTest"/>
+      </group> <!-- testSubmissionForTechnicalApproval -->
+    </groups>
+    <test name="TestCases" duration-ms="657295" started-at="2020-10-23T16:07:26Z" finished-at="2020-10-23T16:18:23Z">
+      <class name="cpqTests.CPQQuoteApprovalTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:cpqTests.CPQQuoteApprovalTest@2669b199]" name="setUp" is-config="true" duration-ms="5904" started-at="2020-10-23T21:37:20Z" finished-at="2020-10-23T21:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testQuoteSEApproval()[pri:0, instance:cpqTests.CPQQuoteApprovalTest@2669b199]" name="testQuoteSEApproval" duration-ms="92704" depends-on-groups="testSubmissionForTechnicalApproval" started-at="2020-10-23T21:46:50Z" finished-at="2020-10-23T21:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuoteSEApproval -->
+        <test-method status="PASS" signature="tearDownWebDriver()[pri:0, instance:cpqTests.CPQQuoteApprovalTest@2669b199]" name="tearDownWebDriver" is-config="true" duration-ms="1456" started-at="2020-10-23T21:48:23Z" finished-at="2020-10-23T21:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownWebDriver -->
+      </class> <!-- cpqTests.CPQQuoteApprovalTest -->
+      <class name="cpqTests.CPQQuoteCreationTest">
+        <test-method status="PASS" signature="testAddProductToQuote()[pri:0, instance:cpqTests.CPQQuoteCreationTest@6d78f375]" name="testAddProductToQuote" duration-ms="132059" started-at="2020-10-23T21:37:26Z" finished-at="2020-10-23T21:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToQuote -->
+        <test-method status="PASS" signature="testAddProductDetailsToQuote()[pri:0, instance:cpqTests.CPQQuoteCreationTest@6d78f375]" name="testAddProductDetailsToQuote" duration-ms="280870" depends-on-groups="testAddProductToQuote" started-at="2020-10-23T21:39:38Z" finished-at="2020-10-23T21:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductDetailsToQuote -->
+        <test-method status="PASS" signature="testEnterLegalAndTechnicalContactDetails()[pri:0, instance:cpqTests.CPQQuoteCreationTest@6d78f375]" name="testEnterLegalAndTechnicalContactDetails" duration-ms="84225" depends-on-groups="testAddProductDetailsToQuote" started-at="2020-10-23T21:44:19Z" finished-at="2020-10-23T21:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnterLegalAndTechnicalContactDetails -->
+        <test-method status="PASS" signature="testSubmissionForCommercialApproval()[pri:0, instance:cpqTests.CPQQuoteCreationTest@6d78f375]" name="testSubmissionForCommercialApproval" duration-ms="15801" depends-on-groups="testEnterLegalAndTechnicalContactDetails" started-at="2020-10-23T21:45:43Z" finished-at="2020-10-23T21:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmissionForCommercialApproval -->
+        <test-method status="PASS" signature="testSubmissionForTechnicalApproval()[pri:0, instance:cpqTests.CPQQuoteCreationTest@6d78f375]" name="testSubmissionForTechnicalApproval" duration-ms="51622" depends-on-groups="testSubmissionForCommercialApproval" started-at="2020-10-23T21:45:59Z" finished-at="2020-10-23T21:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmissionForTechnicalApproval -->
+      </class> <!-- cpqTests.CPQQuoteCreationTest -->
+    </test> <!-- TestCases -->
+  </suite> <!-- Selenium_TestNG_ES_Suite -->
+</testng-results>

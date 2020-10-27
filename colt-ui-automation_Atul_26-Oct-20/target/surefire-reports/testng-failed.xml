@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [Selenium_TestNG_ES_Suite]" parallel="tests">
+  <test name="TestCases(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="testAddProductToQuote"/>
+        <include name="testAddProductDetailsToQuote"/>
+        <include name="testEnterLegalAndTechnicalContactDetails"/>
+        <include name="testSubmissionForCommercialApproval"/>
+        <include name="testSubmissionForTechnicalApproval"/>
+        <include name="testQuoteSEApproval"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="cpqTests.CPQQuoteApprovalTest">
+        <methods>
+          <include name="testQuoteSEApproval"/>
+          <include name="tearDownWebDriver"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- cpqTests.CPQQuoteApprovalTest -->
+      <class name="cpqTests.CPQQuoteCreationTest">
+        <methods>
+          <include name="testEnterLegalAndTechnicalContactDetails"/>
+          <include name="testAddProductToQuote"/>
+          <include name="testSubmissionForTechnicalApproval"/>
+          <include name="testSubmissionForCommercialApproval"/>
+          <include name="testAddProductDetailsToQuote"/>
+        </methods>
+      </class> <!-- cpqTests.CPQQuoteCreationTest -->
+    </classes>
+  </test> <!-- TestCases(failed) -->
+</suite> <!-- Failed suite [Selenium_TestNG_ES_Suite] -->

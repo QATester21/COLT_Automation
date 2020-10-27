@@ -1,0 +1,32 @@
+#Yml for storing URL/Login information for Colt.
+url_information:
+  RFS:
+    C4C_URL: "https://my325462-sso.crm.ondemand.com"
+    SalesUser1_Username: "Vishwas.Pandey@Colt.net"
+    SalesUser1_Password: "Online@123"
+    CPQ_URL: "https://coltuat1.bigmachines.com/sso/saml_request.jsp"
+    SEUser_Username: "Supritkumar.Sudhanshu@colt.net"
+    SEUser_Password: "Online@123"
+    CSTUser_Username: "Ankit.Rastogi@colt.net"
+    CSTUser_Password: "Online@123"
+    ContactDetails_URL: "https://api.colt.net/integration/contacts/coltuat1"
+  SIT:
+    C4C_URL: "https://my333714-sso.crm.ondemand.com"
+    SalesUser1_Username: "Vishwas.Pandey@Colt.net"
+    SalesUser1_Password: "Online@123"
+    CPQ_URL: "https://colttest1.bigmachines.com/sso/saml_request.jsp"
+    SEUser_Username: "Supritkumar.Sudhanshu@colt.net"
+    SEUser_Password: "Online@123"
+    CSTUser_Username: "Sakshi.Gupta@colt.net"
+    CSTUser_Password: "Online@123"
+    ContactDetails_URL: "https://api.colt.net/integration/contacts/colttest1"
+  UAT:
+    C4C_URL: "https://my344250-sso.crm.ondemand.com"
+    SalesUser1_Username: "Vishwas.Pandey@Colt.net"
+    SalesUser1_Password: "Online@123"
+    CPQ_URL: "https://colttest2.bigmachines.com/sso/saml_request.jsp"
+    SEUser_Username: "Supritkumar.Sudhanshu@colt.net"
+    SEUser_Password: "Online@123"
+    CSTUser_Username: "Sakshi.Gupta@colt.net"
+    CSTUser_Password: "Online@123"
+    ContactDetails_URL: "https://api.colt.net/integration/contacts/colttest2"
